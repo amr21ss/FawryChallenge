@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class ExpirableProduct extends Product implements ShippableProduct {
+public class ExpirableProduct extends Product implements Shippable {
     private LocalDate expirationDate;
     private double weight;
 
