@@ -21,6 +21,9 @@ public abstract class Product {
     public void subtractQuantityAmount(int amount) {
         this.quantity -= amount;
     }
+    public boolean isAvailable(int quantityNeeded) {
+        return quantity >= quantityNeeded && !isExpired();
+    }
     public  abstract boolean isExpired();
 
 
