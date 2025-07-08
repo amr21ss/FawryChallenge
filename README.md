@@ -17,8 +17,8 @@ var6.add(var5, 1);
 CheckingOut.checkout(var1, var6)
 
 ** Shipment Details **
-1x Cheese       0g
-1x Cheese       0g
+1x Cheese       0.20g
+1x Cheese       0.70g
 1x Biscuits     1g
 Total package weight 1.10kg
 
